@@ -979,7 +979,7 @@ FocusScope {
                                             variant: "tonal"
                                             size: "sm"
                                             Accessible.name: "Open Android release page in browser"
-                                            onClicked: Qt.openUrlExternally("https://github.com/thtbee/nectarlink/releases/latest")
+                                            onClicked: Qt.openUrlExternally("https://github.com/srj7042/HoneyComb/releases/latest")
                                         }
 
                                         Button {
@@ -991,7 +991,7 @@ FocusScope {
                                             size: "sm"
                                             Accessible.name: "Copy Android release URL"
                                             onClicked: {
-                                                AppController.copyText("https://github.com/thtbee/nectarlink/releases/latest")
+                                                AppController.copyText("https://github.com/srj7042/HoneyComb/releases/latest")
                                                 copied = true
                                                 resetCopyUrlTimer.restart()
                                             }
